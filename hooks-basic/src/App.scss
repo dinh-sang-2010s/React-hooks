@@ -1,0 +1,22 @@
+.App {
+  .form-create-todo {
+    min-width: 200px;
+    .form-group {
+      margin-bottom: 10px !important;
+      .form-control {
+        width: 80%;
+        border-radius: 1cm;
+      }
+    }
+  }
+  .todo-list {
+    .list-group {
+      width: 95%;
+      .list-group-item {
+        margin-bottom: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 1cm;
+      }
+    }
+  }
+}
