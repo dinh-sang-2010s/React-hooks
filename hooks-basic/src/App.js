@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import queryString from "query-string";
 
 import "./App.scss";
-import TodoList from "./components/les01.UseState/TodoList";
-import TodoForm from "./components/les01.UseState/TodoForm";
-import PostList from "./components/les02.UseEffect/PostList";
-import Pagination from "./components/les02.UseEffect/Pagination";
-import FilterForm from "./components/les02.UseEffect/FilterForm";
-import Clock from "./components/les02.UseEffect/Clock/index";
+import TodoList from "./components/hooks/les01.UseState/TodoList";
+import TodoForm from "./components/hooks/les01.UseState/TodoForm";
+import PostList from "./components/hooks/les02.UseEffect/PostList";
+import Pagination from "./components/hooks/les02.UseEffect/Pagination";
+import FilterForm from "./components/hooks/les02.UseEffect/FilterForm";
+import Clock from "./components/hooks/les02.UseEffect/Clock/index";
 
 function App() {
   //todoList
